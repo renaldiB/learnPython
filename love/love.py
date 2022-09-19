@@ -1,6 +1,6 @@
 from contextlib import redirect_stdout
 
-with open('love2.txt', 'w') as f:
+with open('love.txt', 'w') as f:
     with redirect_stdout(f):
         print('\n'.join(
             [''.join(
